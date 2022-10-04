@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="site">
+        <div class="painel-imagem">
+            <div class="conjunto-pokemon">
+                <img src="img/pikachu.png" id="pokemon-imagem">
+                <h1 id="nome-pokemon">???</h1>
+            </div>
+        </div>
+        <div class="alternativas">
+            <button type="button" onclick="QuemEhEssePokemon('pikachu')">Pikachu</button>
+            <button type="button" onclick="QuemEhEssePokemon('squirtle')">Squirtle</button>
+            <button type="button" onclick="QuemEhEssePokemon('charmander')">Charmander</button>
+        </div>
+        <p id="mensagem"></p>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
